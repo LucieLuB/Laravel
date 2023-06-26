@@ -899,7 +899,7 @@
                         </h1>
                         <p class="text-red mt-6">{{ $noticia->date }}</p>
                         <img style="width: 500px; height: auto; margin: 0 auto; padding-top:20px; padding-bottom:20px"
-                            src="{{ $noticia->image }}" alt="Imagen de la noticia">
+                            src="{{ asset($noticia->image) }}" alt="Imagen de la noticia">
                         <p class="text-gray-900 dark:text-white" style="padding-bottom: 20px">{{ $noticia->content }}
                         </p>
                         <p class="text-red">{{ $noticia->author }}</p>
